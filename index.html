@@ -12,9 +12,26 @@
             padding: 20px;
             font-family: Arial, sans-serif;
         }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .logo-container img {
+            height: 50px; /* Adjust height as needed */
+            margin-right: 10px;
+        }
+        h2 {
+            margin-top: 0;
+        }
     </style>
 </head>
 <body>
+    <div class="logo-container">
+        <img src="assets/locbit-logo.png" alt="Locbit Logo">
+        <img src="assets/qi-logo.jpg" alt="QI Logo">
+    </div>
+    
     <h2>Energy Monitoring App</h2>
     <iframe src="charts/energy_prices_demo_timeseries.html" width="100%" height="600px"></iframe>
 </body>
