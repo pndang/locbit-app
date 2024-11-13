@@ -1,4 +1,8 @@
 <style>
+h1 {
+    display: none; /* Hide the main title */
+}
+
 body {
     background-color: #2b2b2b;
     color: white;
